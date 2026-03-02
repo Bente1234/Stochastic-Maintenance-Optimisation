@@ -38,5 +38,5 @@ The repository includes anonymised monthly damage count data used for Poisson ra
 ## How to run
 ```bash
 pip install -r requirements.txt
-python src/highway_maintenance_optim.py
+python src/highway_maintenance_optimisation.py
 
