@@ -1,12 +1,4 @@
-"""
-    1CM290 Maintenance Optimziation and Engineering (Lecturer: J. Lee)
-    Assignment: Data Cahllenges 2025
-    Challenge: Maintenance of highway bridge
-    This is a template for the assignment.
-    You may fill the parts <YOUR CODE HERE> or add new parts as you need.
-    You may change as you need.
-    Please add concise and comprehensive comments.
-"""
+
 
 import numpy as np
 import pandas as pd
@@ -17,7 +9,7 @@ import math
 
 #Maintenance Highway
 # Read Data
-df = pd.read_csv('Highway Data.csv')
+df = pd.read_csv('highway_data.csv')
 
 # Parameters
 c_i = 10 # Inspection cost (thousands euros)
@@ -160,3 +152,4 @@ for tau, cost in results.items():
     print(f"  τ={tau}: Expected monthly cost ≈ €{cost:,.2f}")
 
 print(f"(d) Optimal inspection interval = {tau_star} months")
+
