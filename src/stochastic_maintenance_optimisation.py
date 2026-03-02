@@ -7,7 +7,7 @@ import math
 
 #Maintenance Highway
 # Read Data
-df = pd.read_csv('highway_data.csv')
+df = pd.read_csv('data/highway_data.csv')
 
 # Parameters
 c_i = 10 # Inspection cost (thousands euros)
